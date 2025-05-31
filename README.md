@@ -8,7 +8,7 @@ We introduce the **PoliticalK.O**🥊 (Political comments for Korean Offensive l
 
 
 ### Dataset Construction
-We collected news articles and user comments from [Naver](https://news.naver.com/section/100), South Korea's largest news platform, covering all politic news articles published in 2024. Please check out Table 3 in our paper for the detailed statistics for each topic.
+We collected news articles and user comments from [Naver](https://news.naver.com/section/100), South Korea's largest news platform, covering all politic news articles published in 2024. Please check out Table 5 in our paper for the detailed statistics for each topic.
 
 
 ### Supervised Ensemble Judgment (SEJ)
@@ -38,3 +38,5 @@ We instructed three recent LLMs known for strong performance in Korean: [Exaone]
 
 ### Multi-debate reasoning Judgment (MRJ)
 We conducted multi-agent framework for offensive language detection by assigning distinct personas to each agent. We instructed agents with opposing viewpoints to generate a stance for each rationale. For example, an agent with an offensive perspective was asked to debate a rationale from a non-offensive standpoint, and vice versa. We finally made a decision by a judge agent based on all the rationales and stances.
+
+In this case, we employed the model [Trillion](https://huggingface.co/trillionlabs/Trillion-7B-preview) because it exhibited the best test performance on five prior offensive language datasets across the three recent LLMs employed in conducting PEJ. Please check out Appendix B.3 in our paper for more details.
