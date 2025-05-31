@@ -1,5 +1,7 @@
 # PoliticalK.O🥊
 
+⚠️ Due to the large size of some datasets over 25MB, we will upload all the reamining datasets soon!
+
 We introduce the **PoliticalK.O**🥊 (Political comments for Korean Offensive language) dataset which contains summarized 114,000 news articles and 9.28 million user comments covering six topics: _Presidential Office_, _National Assembly/Political Parties_, _North Korea_, _Administration_, _National Defense/Foreign Affairs_, and _General Politics_. We conducted three distinct judgment strategies to enable label inference for newly collected comments: **supervised ensemble judgment** (SEJ) on the left, **prompt-variants ensemble judgment** (PEJ) in the center, and **multi-debate reasoning judgment** (MRJ) on the right. Each constitutes a distinct approach characterized by its methodology for decision guidance and aggregation.
 
 <img width="1342" alt="Image" src="https://github.com/user-attachments/assets/ca2e5dd4-a633-4a0c-bc80-f4cd8042053e" />
